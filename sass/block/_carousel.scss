@@ -1,0 +1,72 @@
+.carousel {
+	padding: 75px 0 50px 0;
+	background: url(../../img/background.png) center (center/cover) no-repeat;
+	&__title{
+		font-size: 30px;
+		color: #fff;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	&__tab {
+		width: 947px;
+		padding: 6px 25px 6px 20px;
+		border: 1px solid #fff;
+		border-radius: 5px;
+		margin: 0 auto;
+		margin-bottom: 36px;
+		
+	}
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		
+	}
+
+	&__links {
+	}
+	&__link {
+		color: #fff;
+		&:hover{
+			color: #00C2F0;
+		}
+	}
+	li:not(:last-child){
+		border-right:2px solid #929393;
+		padding: 17px 0 17px 0;
+		padding-right: 45px;
+	}
+	&__inner {
+		width: 947px;
+		height: 560px;
+		margin: 0 auto;
+		position: relative;
+		div>img{
+			width: 947px;
+			height: 560px;
+		}
+	}
+	.slick-prev{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: -40px;
+		background-color: rgba(0,0,0,0);
+		img{
+			width: 18px;
+			height: 59px;
+		}
+	}
+	.slick-next{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: -40px;
+		background-color: rgba(0,0,0,0);
+		img{
+			width: 18px;
+			height: 59px;
+		}
+	}
+}

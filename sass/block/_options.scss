@@ -1,0 +1,58 @@
+.options{
+	padding: 75px 277px 181px 280px;
+	height: 580px;
+	background: url('../../img/options/options-1.png') left/50% 100% no-repeat, url('../../img/options/options-2.png') right/50% 100% no-repeat;
+	&__title {
+		font-size: 30px;
+		text-align: center;
+		color: #fff;
+		margin-bottom: 94px;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__item {
+		position: relative;
+		width: 493px;
+	}
+	&__mod{
+		position: absolute;
+		z-index: 2;
+	}
+	&__sebtitle {
+		color: #fff;
+		font-size: 30px;
+		margin-bottom: 15px;
+		&-end{
+			text-align: end;
+
+		}
+	}
+
+	&__text {
+		color: #fff;
+		font-size: 18px;
+		&-end{
+			text-align: end;
+		}
+	}
+	&__element{
+		position: absolute;
+		top: -39px;
+		right: -36px;
+		width: 167px;
+		height: 167px;
+		background-color: #00C2F0;
+		opacity: 30%;
+		z-index: 1;
+		&-right{
+			left: -36px;
+		}
+	}
+
+
+}

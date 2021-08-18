@@ -1,0 +1,26 @@
+.benefits {
+	padding: 57px 0 80px 0;
+	&__title {
+		font-size: 30px;
+		color: black;
+		text-align: center;
+		margin-bottom: 55px;
+	}
+
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__blokc {
+		&-mix{
+			background: url(../../img/benefits/5.png);
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 102% 100%;
+			width: 570px;
+			height: 355px;
+		}
+	}
+		
+}

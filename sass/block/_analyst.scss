@@ -1,0 +1,50 @@
+.analyst {
+	padding: 80px 0 70px 0;
+
+	&__block {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		border: 3px solid #ECECEC;
+		width: 360px;
+		height: 255px;
+	}
+
+	&__img {
+		width: 190px;
+		height: 190px;
+		border: 1px solid #ECECEC;
+		border-top: none;
+	}
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 151px;
+		margin: 20px 0 20px 0;
+	}
+
+	&__play {
+		margin: 20px 0 20px 0;
+	}
+	&__image{
+		display: block;
+	}
+
+	&__subtitle {
+		// margin-top: 60px;
+		text-align: center;
+		font-size: 47px;
+	}
+}
+
+
+

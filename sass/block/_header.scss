@@ -1,0 +1,30 @@
+.header {
+	padding: 14px 0 15px 0;
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__block {
+		display: flex;
+	}
+
+	&__img {
+		margin-right: 9px;
+	}
+
+	&__info {
+		width: 133px;
+	}
+
+	&__text {
+		font-size: 12px;
+		margin-bottom: 3px;
+	}
+
+	&__link {
+		font-size: 12px;
+		margin-bottom: 4px;
+	}
+}
