@@ -1,0 +1,80 @@
+@media screen and (max-width: 1200px){
+	.container{
+		max-width: 960px;
+	}
+	.prengi{
+
+		&__title{
+			font-size: 35px;
+		}
+		&__text{
+			font-size: 18px;
+		}
+		&__mobail{
+			width: 400px;
+			right: 80px
+		}
+	}
+	.carousel{
+		&__title{
+			font-size: 25px;
+		}
+		&__tab{
+			width: 850px;
+		}
+		&__links{
+			margin-right: 35px;
+		}
+		&__link{
+			font-size: 13px;
+		}
+		&__inner {
+			width: 850px;
+			height: 500px;
+			div>img{
+				width: 850px;
+				height: 500px;
+			}
+		}
+	}
+	.benefits{
+		&__title{
+			font-size: 25px;
+		}
+		&__wrapper{
+			justify-content: center;
+		}
+		&__blokc{
+			margin-bottom: 10px;
+		}
+	}
+	.options{
+		padding: 75px 0 181px 0;
+		&__sebtitle{
+			font-size: 25px;
+		}
+		&__text{
+			font-size: 16px;
+		}
+	}
+}
+@media screen and (max-width: 991px){
+	.container{
+		max-width: 700px;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.container {
+		max-width: 576px;
+	  }
+
+}
+
+@media screen and (max-width: 576px){
+	.container{
+		width: 90%;
+	}
+
+}

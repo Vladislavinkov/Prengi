@@ -85,11 +85,11 @@
 	font-weight: 400;
   }
 
-
 .container{
 	width: 1140px;
 	margin: 0 auto;
 }
+
 
 @import "../sass/block/header";
 @import "../sass/block/prengi";
@@ -100,3 +100,4 @@
 @import "../sass/block/connection";
 @import "../sass/block/footer";
 @import "../sass/block/fonts";
+@import "../sass/block/media";
