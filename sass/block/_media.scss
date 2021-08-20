@@ -76,5 +76,150 @@
 	.container{
 		width: 90%;
 	}
+	.header{
+		padding: 12px 0 0 0;
+		&__wrapper{
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+		&__block{
+			margin-bottom: 15px;
+		}
+	}
+	.prengi{
+		height: 600px;
+		&__wrapper{
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+		&__block{
+			margin-bottom: 30px;
+		}
+		&__link{
+			align-items: center;
+		}
+		&__links{
+			margin-left: 30px;
+		}
+		&__wrapper{
+			margin-bottom: 70px;
+		}
+		&__mobail{
+			display: none;
+		}
+	}
+	.analyst{
+		padding: 50px 0 40px 0;
+		&__text{
+			&-none{
+				display: none;
+			}
+		}
+		&__block{
+			flex-direction: row;
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+		}
+		&__info{
+			margin-bottom: 20px;
+		}
+	}
+	.carousel{
+		&__tab{
+			display: none;
+		}
+		&__inner {
+			width: 447px;
+			height: 260px;
+			div>img{
+				width: 447px;
+				height: 260px;
+			}
+		}
+		.slick-prev, .slick-next {
+			img{
+				display: none;
+			}
+		}
+	}
+	.benefits{
+		padding: 35px 0 10px 0;
+		&__title{
+			font-size: 20px;
+			margin-bottom: 30px;
+		}
+		&__blokc{
+			&-mix{
+				display: none;
+			}
+		}
+	}
+	.options{
+		padding: 15px 0 20px 0;
+		height: 350px;
+		&__title{
+			font-size: 20px;
+			margin-bottom: 80px;
+		}
+		&__row{
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+		&__sebtitle{
+			font-size: 16px;
+		}
+		&__text{
+			font-size: 12px;
+		}
+		&__item{
+			flex-basis: 100%;
+		}
+		&__mod{
+			position: relative;
+			margin-bottom: 55px;
+		}
+		&__element{
+			width: 120px;
+			height: 120px;
+			right: -15px;
+			&-right{
+				left: -15px;
+			}
+		}
+	}
+	.connection{
+		padding: 20px 0 30px 0;
+		&__text{
+			font-size: 18px;
+			flex-basis: 60px;
+		}
+		&__img{
+			img{
+				width: 70%;
+			}
+		}
+		&__btn{
+			width: 200px;
+			font-size: 12px;
+		}
+	}
+	.footer{
+		padding: 30px 0 30px 0;
+		&__row{
+			flex-wrap: wrap;
+			margin-bottom: 20px;
+		}
+		&__block{
+			flex-basis: 100%;
+			margin-bottom: 20px;
+			&-mix{
+				flex-basis: 40%;
+			}
+		}
+	}
+	.hr{
+		margin-bottom: 25px;
+	}
 
 }
